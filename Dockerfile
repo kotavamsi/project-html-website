@@ -12,7 +12,7 @@ RUN apt-get install apache2 -y
 
 # Copy the static website to Apache deployment directory(/var/www/htm 
 
-RUN cp /var/lib/jenkins/workspace/demo/* /var/www/html/
+RUN cp -r /var/lib/jenkins/workspace/demo/* /var/www/html/
 
 EXPOSE 80
 # CMD is runtime instruction, is excuted when we run container
