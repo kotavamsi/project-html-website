@@ -20,4 +20,3 @@ second
 third
 fifth
 sixth
-seventh
